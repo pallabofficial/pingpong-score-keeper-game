@@ -27,8 +27,6 @@ function checkWinner() {
 }
 
 function endGame() {
-    // You can add any logic here to handle the end of the game
-    // For example, disable the buttons or show a reset button
     player1Button.removeEventListener("click", checkWinner);
     player2Button.removeEventListener("click", checkWinner);
 }
